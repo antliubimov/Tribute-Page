@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=BioRhyme+Expanded|Open+Sans|Oswald');
+
+/* font-family: 'BioRhyme Expanded', serif; */
+
+
+/* font-family: 'Open Sans', sans-serif;
+ */
+
+body {
+    background: radial-gradient(circle, rgba(164, 132, 146, 1) 0%, rgba(171, 200, 233, 1) 100%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#title {
+    font-family: 'BioRhyme Expanded', serif;
+    text-align: center;
+}
+
+.title__person {
+    font-size: 48px;
+}
+
+.title__about {
+    font-style: italic;
+}
+
+#img-div {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+#img-div img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#tribute-info ul {
+    list-style: square;
+}
+
+blockquote {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    border: 10px solid rgb(101, 101, 242);
+    padding: 20px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+blockquote p {
+    margin: 0;
+    padding: 0;
+}
+
+blockquote cite {
+    text-align: right;
+    position: absolute;
+    right: 50px;
+    margin-bottom: 20px;
+}
+
+#tribute-link {
+    margin-left: 40px;
+}
+
+footer {
+    text-align: center;
+}
